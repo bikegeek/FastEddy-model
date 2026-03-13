@@ -97,6 +97,7 @@ class Stitcher:
         os.makedirs(self.staging_dir, exist_ok=True)
         shutil.copy(origin, destination)
 
+        # ToDo invoke the FEbinaryToNetCDF module here
 
 
 if __name__ == "__main__":

@@ -1,0 +1,10 @@
+Stuck on getting a stop condition for the PBS job
+  - tried determining process status
+  - using testing_while.sh to experiment (for submitting PBS job)
+
+ToDo
+
+ - invoke the FEbinaryToNetcdf module in the FEstitcher module 
+ - figure out a workaround to issue above:
+    - determine when all expected files are present in the staging directory to 
+      exit the while-loop?
